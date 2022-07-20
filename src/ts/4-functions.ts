@@ -18,7 +18,7 @@ interface IPositionWithDefault extends IPosition{
 }
 
 function position(): IPosition
-function position(a: number): IPositionWithDefault
+// function position(a: number): IPositionWithDefault
 function position(a: number, b: number): IPosition
 
 function position(a?: number, b?: number) {
@@ -44,6 +44,6 @@ function position(a?: number, b?: number) {
 }
 
 console.log('Empty: ', position());
-console.log('One param: ', position(42));
+// console.log('One param: ', position(42));
 console.log('Two params: ', position(42, 33));
 

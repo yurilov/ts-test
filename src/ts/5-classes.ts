@@ -47,7 +47,7 @@ class Cat extends Animal {
 }
 
 const cat = new Cat()
-//cat.voice will throw erroe cause it is protected property
+//cat.voice will throw error cause it is protected property
 cat.setVoice('white')
 console.log(cat.color)
 
