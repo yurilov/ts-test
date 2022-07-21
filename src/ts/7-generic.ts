@@ -8,3 +8,8 @@ function reverse<T>(array:T[]): T[] {
 
 console.log(reverse(arrayOfNumbers))
 console.log(reverse(arrayOfStrings))
+
+function createPair<typeX, typeY>(x: typeX, y: typeY): [typeX, typeY] {
+ return [x, y];
+}
+console.log(createPair<string, number>('Meaning', 42));
